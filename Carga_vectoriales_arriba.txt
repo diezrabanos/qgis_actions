@@ -1,0 +1,4 @@
+layer = qgis.utils.iface.activeLayer()
+QgsProject.instance().layerTreeRegistryBridge().setLayerInsertionPoint( QgsProject.instance().layerTreeRoot(), 0 )
+qgis.utils.iface.addVectorLayer('[% "ENLACE" %]', '[% "NOMBRE_INE" %]',"ogr")
+qgis.utils.iface.setActiveLayer(layer)
