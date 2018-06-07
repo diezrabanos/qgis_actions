@@ -1,4 +1,4 @@
 layer = qgis.utils.iface.activeLayer()
-QgsProject.instance().layerTreeRegistryBridge().setLayerInsertionPoint( QgsProject.instance().layerTreeRoot(), 10 )
+QgsProject.instance().layerTreeRegistryBridge().setLayerInsertionPoint( QgsProject.instance().layerTreeRoot(), 1000 )
 qgis.utils.iface.addRasterLayer('[% "PATH" %]', '[% "NAME" %]')
 qgis.utils.iface.setActiveLayer(layer)
